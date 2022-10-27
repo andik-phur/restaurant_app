@@ -10,7 +10,7 @@ import 'get_restaurants_test.mocks.dart';
 @GenerateMocks([http.Client])
 void main() {
   group(
-    'Get api restaurants',
+    'Get api restaurant',
     () {
       test(
         'return restaurants list if the http call completes successfully',
